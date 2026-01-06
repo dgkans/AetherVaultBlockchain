@@ -2,8 +2,8 @@ import axios from "axios";
 
 const JWT = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiIwYTkzMThjNi0zNTM4LTQ0NzQtODk5NC05ZWFiOTUyNmZlNjUiLCJlbWFpbCI6ImphaXN3YWxqYW55YUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJGUkExIn0seyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJOWUMxIn1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiMTFhMzBjZDNiYThjMTVjMjYzMTMiLCJzY29wZWRLZXlTZWNyZXQiOiI0MmJhMzJkMThiOTVjZDk5NDY0OWQ2MWE1MWZiNWZmZWE0NmMwZmMwMDU4MGVlMDJjNWM4NDcxMGVjOWYwY2UxIiwiZXhwIjoxNzk2NDI5Mzc2fQ.Qop4a0fVaTq9giEbdFg6kha9-8mK9jui3ge7q-w-IJk";
 
-const key = "11a30cd3ba8c15c26313";
-const secret = "42ba32d18b95cd994649d61a51fb5ffea46c0fc00580ee02c5c84710ec9f0ce1";
+const key = "";
+const secret = "";
 
 export const uploadJSONToIPFS = async(JSONBody) => {
     const url = `https://api.pinata.cloud/pinning/pinJSONToIPFS`;
