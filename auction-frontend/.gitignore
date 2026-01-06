@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# API Keys and Secrets
+src/pinata.js
+*.env
+*.env.local
+*.env.*.local
+.envrc
+secrets.json
+config/secrets.js
